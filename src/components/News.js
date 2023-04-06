@@ -52,8 +52,8 @@ export class News extends Component {
 
   render() {
     return (
-        <div className='container mt-5'>
-          <h1 className='text-center border shadow-sm p-4'>MeroNews - Top <b> {this.capitalize(this.props.category)} </b>Headlines</h1>
+        <div className='container main'>
+          <h1 className='text-center border shadow-sm p-4 mt-4'>MeroNews - Top <b> {this.capitalize(this.props.category)} </b>Headlines</h1>
           {this.state.loading && <Spinner/>}
 
           <InfiniteScroll

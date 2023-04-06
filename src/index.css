@@ -9,6 +9,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-nav{
-  border-radius: 15px;
+.main{
+  margin-top: 90px;
 }
